@@ -3,7 +3,6 @@
     All selectors with colors that would need
     to be changed for theme changes
 */
-
 /*
   COLORS
 
@@ -19,68 +18,57 @@
   Cloud
     rgb(236, 240, 241)
 */
-
-.background--skyBlue {
-  background-color: rgb(52, 152, 219);
+.background-skyBlue {
+  background-color: #3498db;
 }
-
-.color--skyBlue {
-  color: rgb(52, 152, 219);
+.color-skyBlue {
+  color: #3498db;
 }
-
-.color--cloud {
-  color: rgb(236, 240, 241);
+.color-cloud {
+  color: #ecf0f1;
 }
-
-.color--grey {
-  color: rgb(127, 140, 141);
+.color-grey {
+  color: #7f8c8d;
 }
-
-.color--darkgrey {
-  color: rgb(44, 62, 80);
+.color-darkgrey {
+  color: #2c3e50;
 }
-
-.section__example {
-  background-color: rgb(44, 62, 80);
+.section_example {
+  background-color: #2c3e50;
 }
-
 /*
-  General Styles
-    These are styles to be inherited
-    through parent containers
-*/
-
+    General Styles
+      These are styles to be inherited
+      through parent containers
+  */
 html {
   font-size: 62.5%;
 }
-
 body {
   font-family: 'Relaway', 'Cardo', serif;
   margin: 0;
 }
-
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: 'Montserrat', sans-serif;
   letter-spacing: .1rem;
 }
-
 /*
-  Helpers
-*/
-
-.margin--none {
+    Helpers
+  */
+.margin-none {
   margin: 0;
 }
-
-.overflow--auto {
+.overflow-auto {
   overflow: auto;
 }
-
-
 /*
-  Sections
-*/
-
+    Sections
+  */
 .section {
   font-size: 4.2rem;
   min-height: 70vh;
@@ -88,107 +76,87 @@ h1, h2, h3, h4, h5, h6 {
   padding-top: 5rem;
   padding-bottom: 5rem;
 }
-
-.section--alignCentered {
+.section-alignCentered {
   text-align: center;
 }
-
-.section--description {
+.section-description {
   font-size: 2.8rem;
   padding-left: 3.5rem;
   padding-right: 3.5rem;
 }
-
-.section__description {
+.section_description {
   margin: 0 auto;
   margin-bottom: 2rem;
   width: 50%;
 }
-
-.section__text--centered {
+.section_text-centered {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
-
-.section__exampleWrapper,
-.section__example {
+.section_exampleWrapper,
+.section_example {
   display: inline-block;
   height: 35rem;
   width: 35rem;
 }
-
-.section__exampleWrapper {
+.section_exampleWrapper {
   margin-right: 4rem;
 }
-
-.section__example {
+.section_example {
   border-radius: 100%;
   cursor: pointer;
   overflow: hidden;
   position: relative;
 }
-
-.section__example:active {
+.section_example:active {
   transition: 0.05s all;
   width: 34rem;
   height: 34rem;
 }
-
-.section__exampleTitle{
+.section_exampleTitle {
   font-size: 3.4rem;
   text-align: center;
   text-transform: uppercase;
   width: 90%;
 }
-
-.section__exampleImage {
+.section_exampleImage {
   opacity: 0.25;
   width: 250%;
   margin-left: -50%;
   margin-top: -50%;
 }
-
 /*
-  Header
-*/
-
-.section__heading--largest {
+    Header
+  */
+.section_heading-largest {
   float: left;
   font-size: 5rem;
   margin-left: 2rem;
 }
-
-.section--social {
+.section-social {
   float: right;
   line-height: 10rem;
   margin-right: 2rem;
 }
-
 .social {
   margin-right: 0.75rem;
 }
-
 .socialWrapper:last-child .social {
   margin-right: 0;
 }
-
 .socialWrapper {
   display: inline-block;
   font-size: 3rem;
 }
-
-
 /*
-  Modal
-*/
-
-.modal--closed {
+    Modal
+  */
+.modal-closed {
   display: none;
 }
-
-.modal--open {
+.modal-open {
   display: block;
   position: fixed;
   top: 0;
@@ -199,8 +167,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 100%;
   z-index: 100;
 }
-
-.modal__closeButton {
+.modal_closeButton {
   position: absolute;
   right: 2rem;
   top: 5rem;
@@ -208,8 +175,7 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 1;
   cursor: pointer;
 }
-
-.modal__text {
+.modal_text {
   position: absolute;
   top: 0;
   left: 0;
@@ -217,15 +183,13 @@ h1, h2, h3, h4, h5, h6 {
   padding: 2rem;
   width: 66%;
 }
-
-.modal__link {
+.modal_link {
   background-color: white;
   border-radius: 4px;
   padding: 0.4rem 1rem;
   text-transform: uppercase;
   text-decoration: none;
 }
-
-.modal__image {
+.modal_image {
   opacity: 0.2;
 }
