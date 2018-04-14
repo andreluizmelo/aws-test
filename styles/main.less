@@ -1,29 +1,13 @@
-/*
-  Theme colors
-    All selectors with colors that would need
-    to be changed for theme changes
-*/
+
 @skyblue: rgb(52, 152, 219);
-@background: @skyblue;
+@velvet: rgb(219, 152, 52);
+@main-color: @skyblue;
+@background: @main-color;
 @cloud: rgb(236, 240, 241);
 @grey: rgb(127, 140, 141);
 @dark-grey: rgb(44, 62, 80);
+@white: rgb(230, 230, 230);
 @background-secondary: rgb(44, 62, 80);
-/*
-  COLORS
-
-  Sky
-    rgb(52, 152, 219)
-
-  Dark Blue
-    rgb(44, 62, 80)
-
-  Grey
-    rgb(127, 140, 141)
-
-  Cloud
-    rgb(236, 240, 241)
-*/
 
 .background-skyBlue {
     background-color: @background;
@@ -224,7 +208,7 @@
   }
   
   .modal_link {
-    background-color: white;
+    background-color: @white;
     border-radius: 4px;
     padding: 0.4rem 1rem;
     text-transform: uppercase;
