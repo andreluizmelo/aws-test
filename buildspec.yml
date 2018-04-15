@@ -3,7 +3,7 @@ version: 0.1
 phases:
   build:
     commands:
-      - npm install less
+      - npm install -g less
       - lessc styles/main.less styles/main.css
       - echo Nothing to do yet
 artifacts:
